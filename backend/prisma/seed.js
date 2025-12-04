@@ -37,7 +37,16 @@ async function main() {
       sectionId: 'Section 3',
       text: 'Sample text for Minimum wages.',
       summary: 'Fixes minimum wages for different categories.'
+    },
+    {
+      title: 'Factories Act, 1948',
+      sectionId: 'Section 7A',
+      text: '...',
+      summary: '...',
+      applicability: 'Applies to factories with 10 or more workers',
+      sourceLink: 'https://labour.gov.in'
     }
+
   ];
 
   for (const l of laws) {

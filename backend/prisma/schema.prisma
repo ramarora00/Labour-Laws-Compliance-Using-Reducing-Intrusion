@@ -14,7 +14,11 @@ model User {
   passwordHash String
   role         String   @default("HR")
   createdAt    DateTime @default(now())
+  summary      String   @default("default_summary")  // Add default value
+  applicability String  @default("default_applicability") // Add default value
+  sourceLink   String   @default("default_sourceLink")   // Add default value
 }
+
 
 model Organization {
   id        Int      @id @default(autoincrement())
@@ -31,5 +35,7 @@ model Law {
   sectionId      String
   text           String   
   summary        String?
-
+  applicability  String   @default("default_applicability") // Add default value if needed
+  sourceLink     String   @default("default_sourceLink")   // Add default value if needed
 }
+

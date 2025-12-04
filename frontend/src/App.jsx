@@ -6,6 +6,10 @@ export default function App(){
       <h1>LabourSafe — Demo</h1>
       <nav style={{ marginBottom: 16 }}>
         <Link to="/laws" style={{ marginRight: 12 }}>Laws</Link>
+        <Link to="/checklist" style={{ marginRight: 12 }}>Compliance Checklist</Link>
+        <Link to="/company" style={{ marginRight: 12 }}>Company Profile</Link>
+
+
       </nav>
       <p>Lightweight demo. Open <strong>Laws</strong> to see seeded entries.</p>
     </div>
