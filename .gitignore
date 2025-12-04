@@ -1,0 +1,12 @@
+# root ignores
+.DS_Store
+.env
+node_modules/
+.vscode/
+
+# frontend
+frontend/dist/
+
+# backend
+backend/node_modules/
+backend/logs/
